@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" href="images/icon.jpg"/>
+    <link rel="stylesheet" href="css/style.css">
+    <title>Contato</title>
+</head>
+<body>
+    <header>
+        <div class="home-button">
+            <a href="index.html">Pagina inicial</a>
+        </div>
+    </header>
+    <main>
+        <form id="formContato" action="processa.html" method="get">
+                <label for="nome">Nome (máx. 50 caracteres):</label>
+                <input type="text" id="nome" name="nome" maxlength="50" required>
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" maxlength="60" required>
+                <label for="assunto">Assunto (máx. 40 caracteres):</label>
+                <input type="text" id="assunto" name="assunto" maxlength="40" required>
+                <label for="mensagem">Mensagem (máx. 300 caracteres):</label>
+                <textarea id="mensagem" name="mensagem" rows="6" maxlength="300" required></textarea>
+                <button type="submit">Enviar</button>
+                <button type="reset">Limpar</button>
+        </form>
+    </main>
+    <footer>
+       <p>2025. Todos os direitos reservados. Heitor Silva Vareiro, Joao Guilherme Rodrigues. Desenvolvimento Web 1</p>
+    </footer>
+</body>
+</html>
