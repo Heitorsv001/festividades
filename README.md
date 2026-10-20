@@ -52,11 +52,6 @@ python3 -m http.server 8000 --bind 127.0.0.1
 
 Acesse `http://127.0.0.1:8000/`. Encerre o servidor com `Ctrl+C`. O acesso à internet é necessário para Google Fonts, vídeos e outras referências externas.
 
-## Escopo e verificação
-
-Este é um projeto de front-end estático. O CSS não possui media queries; a adaptação a telas menores precisa ser avaliada visualmente. Não há autenticação, painel de edição ou sistema de mensagens.
-
-Na revisão documental, os 30 caminhos locais de links, imagens, estilos, scripts e formulário foram encontrados, e a demonstração publicada respondeu HTTP 200. Não foram repetidos testes visuais ou de interação no navegador. As imagens existentes são ilustrações de conteúdo; não foram identificadas capturas reais do site.
 
 ## Créditos
 
