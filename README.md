@@ -53,6 +53,4 @@ python3 -m http.server 8000 --bind 127.0.0.1
 Acesse `http://127.0.0.1:8000/`. Encerre o servidor com `Ctrl+C`. O acesso à internet é necessário para Google Fonts, vídeos e outras referências externas.
 
 
-## Créditos
 
-O rodapé e `leia-me.txt` registram Heitor Silva Vareiro e Joao Guilherme Rodrigues, na disciplina Desenvolvimento Web 1. O repositório é mantido na conta [Heitorsv001](https://github.com/Heitorsv001).
